@@ -33,7 +33,7 @@ class Invoice:
             userInput = input(input_value)
             if userInput in ['y', 'n']:
                 return userInput
-            print("y or n! Try again.")
+            print("Hello world")
 
     def inputNumber(self, input_value):
         while True:
@@ -44,3 +44,4 @@ class Invoice:
                 continue
             else:
                 return userInput
+           
